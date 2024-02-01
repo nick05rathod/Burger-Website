@@ -6,7 +6,7 @@ const Navbar = () => {
     <header className=" fixed w-full z-10 py-4 bg-tertiary shadow-xl">
       <div className="container flex flex-row justify-between items-center">
         <div>
-          <Link to="/" spy={true} smooth={true} duration={500}>
+          <Link to="/" spy={true} smooth={true} duration={600}>
             <h1 className="font-semibold text-secondary text-2xl">
               Burger Bistro
             </h1>
@@ -18,7 +18,7 @@ const Navbar = () => {
             to="menu"
             spy={true}
             smooth={true}
-            duration={500}
+            duration={600}
             className="cursor-pointer hover:text-primary transition duration-300 ease-in-out"
           >
             Menu
@@ -27,7 +27,7 @@ const Navbar = () => {
             to="hotdeals"
             spy={true}
             smooth={true}
-            duration={500}
+            duration={600}
             className="cursor-pointer hover:text-primary transition duration-300 ease-in-out"
           >
             HotDeals
@@ -36,7 +36,7 @@ const Navbar = () => {
             to="special"
             spy={true}
             smooth={true}
-            duration={500}
+            duration={600}
             className="cursor-pointer hover:text-primary transition duration-300 ease-in-out"
           >
             Special
@@ -45,7 +45,7 @@ const Navbar = () => {
             to="review"
             spy={true}
             smooth={true}
-            duration={500}
+            duration={600}
             className="cursor-pointer hover:text-primary transition duration-300 ease-in-out"
           >
             Review
@@ -53,7 +53,7 @@ const Navbar = () => {
         </nav>
         <div>
           <button
-            className=" bg-secondary  *:py-6 px-4 rounded-full
+            className=" bg-secondary  *:py-6 px-4 rounded-md
           text-white  font-semibold text-lg
            hover:scale-105 duration-300"
           >
