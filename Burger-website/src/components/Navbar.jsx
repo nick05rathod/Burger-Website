@@ -53,7 +53,7 @@ const Navbar = () => {
         </nav>
         <div>
           <button
-            className=" bg-secondary  *:py-6 px-4 rounded-md
+            className=" bg-secondary  *:py-6 px-4 rounded-full
           text-white  font-semibold text-lg
            hover:scale-105 duration-300"
           >
