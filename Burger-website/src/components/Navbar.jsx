@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-scroll";
+import Darkmode from "../layouts/Darkmode";
 
 const Navbar = () => {
   return (
-    <header className=" fixed w-full z-10 py-4 bg-tertiary shadow-xl">
+    <header className=" fixed w-full z-10 py-4 bg-tertiary shadow-xl dark:bg-slate-900 dark:text-white">
       <div className="container flex flex-row justify-between items-center">
         <div>
           <Link to="/" spy={true} smooth={true} duration={600}>
@@ -13,7 +14,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <nav className="flex gap-10 text-secondary font-semibold text-lg">
+        <nav className=" hidden lg:flex gap-10 text-secondary font-semibold text-lg">
           <Link
             to="menu"
             spy={true}
@@ -51,7 +52,10 @@ const Navbar = () => {
             Review
           </Link>
         </nav>
-        <div>
+        <div className="flex gap-5 item-center">
+          <div>
+            <Darkmode></Darkmode>
+          </div>
           <button
             className=" bg-secondary  *:py-6 px-4 rounded-md
           text-white  font-semibold text-lg
