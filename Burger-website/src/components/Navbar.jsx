@@ -19,6 +19,16 @@ const Navbar = () => {
           "
         >
           <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            duration={600}
+            className="cursor-pointer hover:text-primary hover:border-b-4 border-solid border-primary transition duration-300 ease-in-out "
+          >
+            Home
+          </Link>
+
+          <Link
             to="menu"
             spy={true}
             smooth={true}
@@ -28,7 +38,7 @@ const Navbar = () => {
             Menu
           </Link>
           <Link
-            to="hotdeals"
+            to="combo"
             spy={true}
             smooth={true}
             duration={600}
@@ -62,7 +72,7 @@ const Navbar = () => {
           <button
             className=" bg-secondary  *:py-6 px-4 rounded-md
           text-white  font-semibold text-lg
-           hover:scale-105 duration-300"
+           hover:scale-105 duration-300 "
           >
             Order Now
           </button>
