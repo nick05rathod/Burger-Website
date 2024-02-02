@@ -14,13 +14,16 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <nav className=" hidden lg:flex gap-10 text-secondary font-semibold text-lg">
+        <nav
+          className=" hidden lg:flex gap-10 text-secondary font-semibold text-lg
+          "
+        >
           <Link
             to="menu"
             spy={true}
             smooth={true}
             duration={600}
-            className="cursor-pointer hover:text-primary transition duration-300 ease-in-out"
+            className="cursor-pointer hover:text-primary hover:border-b-4 border-solid border-primary transition duration-300 ease-in-out "
           >
             Menu
           </Link>
@@ -29,16 +32,16 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={600}
-            className="cursor-pointer hover:text-primary transition duration-300 ease-in-out"
+            className="cursor-pointer hover:text-primary hover:border-b-4 border-solid border-primary transition duration-300 ease-in-out "
           >
-            HotDeals
+            Combo
           </Link>
           <Link
             to="special"
             spy={true}
             smooth={true}
             duration={600}
-            className="cursor-pointer hover:text-primary transition duration-300 ease-in-out"
+            className="cursor-pointer hover:text-primary hover:border-b-4 border-solid border-primary transition duration-300 ease-in-out "
           >
             Special
           </Link>
@@ -47,7 +50,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             duration={600}
-            className="cursor-pointer hover:text-primary transition duration-300 ease-in-out"
+            className="cursor-pointer hover:text-primary hover:border-b-4 border-solid border-primary transition duration-300 ease-in-out "
           >
             Review
           </Link>
