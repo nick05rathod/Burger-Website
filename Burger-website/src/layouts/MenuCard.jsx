@@ -11,7 +11,7 @@ const MenuCard = ({ id, title, price }) => {
       key={id}
     >
       <img
-        className=" relative w-40 -right-6 sm:-rigth-14 bottom-0 mr-2 group-hover:-translate-y-2 transition duration-300 ease-in-out "
+        className=" relative w-40 -right-6 sm:-right-14 bottom-0 mr-2 group-hover:-translate-y-2 transition duration-300 ease-in-out "
         src={img}
         alt="img"
       />
