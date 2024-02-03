@@ -4,6 +4,8 @@ import Hero from "./components/Hero";
 import Menu from "./components/Menu";
 import Combo from "./components/Combo";
 import SpecialMenu from "./components/SpecialMenu";
+import Review from "./components/Review";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +24,10 @@ function App() {
       <div id="special">
         <SpecialMenu></SpecialMenu>
       </div>
+      <div id="review">
+        <Review></Review>
+      </div>
+      <Footer></Footer>
     </>
   );
 }
